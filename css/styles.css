@@ -1,3 +1,22 @@
 .world-map {
   width: 100%;
 }
+
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+​
+.bg-warning-custom{
+  background-color: hotpink;
+}
+ .image-size-large {
+   height:200px;
+ }
+ .facts {
+   padding: 2rem 1rem;
+   text-align: left;
+ }
