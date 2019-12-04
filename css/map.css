@@ -1,0 +1,7 @@
+path#AR {
+    fill: red !important;
+}
+
+path#FR:hover {
+    fill: blue !important;
+}
