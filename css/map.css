@@ -1,5 +1,5 @@
-path#AR {
-    fill: red !important;
+path#AR:hover {
+    fill: blue !important;
 }
 
 path#FR:hover {
