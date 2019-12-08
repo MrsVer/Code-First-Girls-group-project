@@ -17,3 +17,7 @@ path#AU:hover {
 path#NZ:hover {
     fill: blue !important;
 }
+
+path#IT:hover {
+    fill: blue !important;
+}
