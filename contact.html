@@ -6,11 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>France</title>
+    <title>Contact Us</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles-contact.css" rel="stylesheet">
   </head>
 
   <body>
@@ -39,6 +40,35 @@
 
       <div class="starter-template">
         <h1>Contact</h1>
+
+        <form action="https://postmail.invotes.com/send"
+            method="post" id="email_form">
+
+            <input type="email" size="55" name="reply_to" placeholder="Your Email" />
+
+            <input type="text" size="55" name="subject" placeholder="Subject" />
+
+            <textarea name="text" rows="12" cols="55" placeholder="Message"></textarea>
+
+            <input type="hidden" name="access_token" value="bc2zxdek0ikdxa7mzz949398" />
+
+            <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+            <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+
+            <input id="submit_form" type="submit" value="Send" />
+        </form>
+
+        <script>
+            var submitButton = document.getElementById("submit_form");
+            var form = document.getElementById("email_form");
+            form.addEventListener("submit", function (e) {
+                setTimeout(function() {
+                    submitButton.value = "Sending...";
+                    submitButton.disabled = true;
+                }, 1);
+            });
+        </script>
+
       </div>
 
     </main><!-- /.container -->
