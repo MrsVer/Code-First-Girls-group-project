@@ -1,7 +1,19 @@
-path#AR:hover {
+path#FR:hover {
     fill: blue !important;
 }
 
-path#FR:hover {
+path#US:hover {
+    fill: blue !important;
+}
+
+path#BR:hover {
+    fill: blue !important;
+}
+
+path#AU:hover {
+    fill: blue !important;
+}
+
+path#NZ:hover {
     fill: blue !important;
 }
