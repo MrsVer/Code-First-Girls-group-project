@@ -6,16 +6,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contact Us</title>
+    <title>Australasia</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/styles-contact.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="css/styles-countries.css" rel="stylesheet">
   </head>
 
   <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="map.html">Group-Six</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,47 +50,35 @@
       </div>
     </nav>
 
-    <main role="main" class="container">
 
-    <div class="starter-template">
-        <h1>Contact</h1>
+<div class="container">
+
+          <div class="row">
+            <div class="col">
+          <div class="card" style="width: 30rem;">
+            <img src="images/countries/AU/au-thingstodo.jpg" class="card-img-top" alt="AU">
+            <div class="card-body">
+              <h5 class="card-title">Australia</h5>
+              <p class="card-text"> Primarily a Western culture to some extent derived from Britain but also influenced by the Aboriginal,</p>
+              <a href="australia.html" class="btn btn-primary"> Sydney</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+              <div class="card" style="width: 30rem;">
+            <img src="images/countries/NZ/nz-thingstodo.jpg" class="card-img-top" alt="NZ">
+            <div class="card-body">
+              <h5 class="card-title">New Zealand</h5>
+              <p class="card-text">The countryside said to magnificent, and perhaps no more so than the Southern Alps of the South Island.</p>
+              <a href="newzealand.html" class="btn btn-primary">Auckland</a>
+            </div>
+          </div>
+        </div>
     </div>
+</div>
 
-    <div class="contactformwithicon">
-        <form action="https://postmail.invotes.com/send"
-            method="post" id="email_form">
 
-            <input type="email" size="55" name="reply_to" placeholder="Your Email" />
 
-            <input type="text" size="55" name="subject" placeholder="Subject" />
-
-            <textarea name="text" rows="12" cols="55" placeholder="Message"></textarea>
-
-            <input type="hidden" name="access_token" value="bc2zxdek0ikdxa7mzz949398" />
-
-            <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
-            <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
-
-            <input id="submit_form" type="submit" value="Send" />
-        </form>
-
-        <script>
-            var submitButton = document.getElementById("submit_form");
-            var form = document.getElementById("email_form");
-            form.addEventListener("submit", function (e) {
-                setTimeout(function() {
-                    submitButton.value = "Sending...";
-                    submitButton.disabled = true;
-                }, 1);
-            });
-        </script>
-
-      <div class="mailicon">
-          <h1 class="animated zoomIn">
-            <img src="images/earth-mail.png" width="55%" height="55%"alt="contact" >
-          </h1>
-      </div>
-    </div>
 
     </main><!-- /.container -->
 
