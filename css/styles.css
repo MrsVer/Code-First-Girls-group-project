@@ -34,3 +34,9 @@ body {
  .aboutphoto {
    text-align: center;
  }
+.bodyfont {
+  font-family:sans-serif;
+}
+.captiondark {
+  color: black;
+}
