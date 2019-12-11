@@ -23,6 +23,10 @@ body {
  }
 
 
+ .starter-template2 {
+   padding: 0.5rem 1rem;
+   text-align: center;
+ }
  .mt-0 {
    margin-bottom: 2 !important;
  }

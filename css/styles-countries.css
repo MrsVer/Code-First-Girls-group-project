@@ -2,7 +2,7 @@ body {
   padding-top: 5rem;
 }
 .starter-template {
-  padding: 3rem 1.5rem;
+  padding: 0.5rem;
   text-align: center;
 }
 .bg-warning-custom{
@@ -17,5 +17,5 @@ body {
  }
  .starter-template2 {
    padding: 1rem 1.5rem;
-   padding-bottom: 3rem
    text-align: center;
+ }
