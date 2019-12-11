@@ -30,3 +30,7 @@ body {
  .mt-0 {
    margin-bottom: 2 !important;
  }
+
+ .aboutphoto {
+   text-align: center;
+ }
